@@ -5,12 +5,12 @@ app = Flask(__name__)
 def home():
     return jsonify(
         {
-        "message": "I am David Iweala, I am an aspiring Senior DevOps Engineer",
+        "message": "I am Oleksandr Bozhynskyi, I am an aspiring Senior DevOps Engineer",
         "Status": "Success"
         }
     )
 
-@app.route("/david")
+@app.route("/boz1k")
 def david():
     return jsonify(
         {

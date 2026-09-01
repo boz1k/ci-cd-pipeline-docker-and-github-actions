@@ -14,7 +14,7 @@ def test_home():
 
 def test_david():
     client = app.test_client()
-    response = client.get('/david')
+    response = client.get('/boz1k')
     assert response.status_code == 200
     data = response.get_json()
     assert data['message'] == 'Healthy'

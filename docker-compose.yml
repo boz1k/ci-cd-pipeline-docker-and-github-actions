@@ -1,0 +1,6 @@
+services:
+  flask-app:
+    image: devops-flask
+    ports: 
+    - "5500:5500"
+    restart: always
